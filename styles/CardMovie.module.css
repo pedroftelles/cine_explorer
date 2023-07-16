@@ -1,0 +1,126 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  margin-bottom: 2em;
+  width: 29%;
+  min-height: 650px;
+  background-color: #333;
+  color: #fff;
+}
+
+.img {
+  width: 100%;
+  border-radius: 1.5rem;
+  height: auto;
+}
+.title, .title_1 {
+  text-transform: capitalize;
+  margin: 1em 0 ;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  transition: .4s;
+}
+
+
+
+.title:hover {
+ cursor: pointer;
+ background-image: linear-gradient(to right bottom, #ff0001, #fe352b, #fb5047, #f5665f, #ed7976, #ed8991, #eb9ba8, #e6acbb, #e8c1d5, #ebd7e8, #f2ecf6, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: trasnparent;
+  color:transparent;
+}
+
+
+
+.title_1:hover {
+  background-image: linear-gradient(to right bottom, #ff0001, #fe352b, #fb5047, #f5665f, #ed7976, #ed8991, #eb9ba8, #e6acbb, #e8c1d5, #ebd7e8, #f2ecf6, #ffffff);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: trasnparent;
+   color:transparent;
+ }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info p {
+  margin-bottom: 1rem;
+}
+
+.info p svg {
+  color: #f7d354;
+  margin-right: .5rem;
+}
+
+@media (max-width: 1280px) {
+  .card {
+    min-width: 26%;
+    min-height: 500px;
+  }
+  
+  .title, .title_1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 36%;
+    margin: 0 auto 2rem;
+    min-height: 700px;
+  }
+}
+
+.title, .title_1 {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .card {
+    min-height: 650px;
+  }
+}
+
+@media (max-width: 830px) {
+  .card {
+    min-height: 600px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 40%;
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .card {
+    min-height: 550px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 73%;
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 73%;
+    min-height: auto;
+  }
+}

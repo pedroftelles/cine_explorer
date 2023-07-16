@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem
+}
+
+.container h1, .container p {
+  color: #fff;
+}
+
+.container h1 {
+  font-size: 4rem;
+}
+
+.container p {
+  font-size: 2rem;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+}
