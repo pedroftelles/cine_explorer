@@ -19,3 +19,11 @@ Ao abrir a página inicial serão exibidos os filmes mais populares do momento d
 Na tela inicial o usuário pode acessar os detalhes dos filmes clicando sobre o seu título.
 
 Ainda assim é possível pesquisar uma lista de filmes através da barra de pesquisa existente na barra de navegação.
+
+## Deploy
+
+Foi feito o deploy do projeto através da plataforma Vercel.
+
+Caso deseje, o usuário poderá acessar e utilizar as funcionalidade do projeto através do link:  https://cine-explorer-rho.vercel.app/
+ 
+
